@@ -12,7 +12,6 @@ module ResultLogger
 
   private
 
-  # TODO: total_price
   def header(total_qty, code, total_price)
     fmt = format('%d %s $%g', total_qty, code, total_price)
   end
